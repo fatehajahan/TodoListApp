@@ -88,7 +88,7 @@ function ToDoList() {
           />
           <button
             onClick={handleAddOrUpdate}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded cursor-pointer"
           >
             Add
           </button>
@@ -125,13 +125,13 @@ function ToDoList() {
                   </span>
                   <div className="flex gap-2">
                     <button onClick={() => toggleComplete(item)}>
-                      <Check className="w-5 h-5 text-green-600" />
+                      <Check className="w-5 h-5 text-green-600 cursor-pointer" />
                     </button>
                     <button onClick={() => editTask(item)}>
-                      <PencilLine className="w-5 h-5 text-blue-500" />
+                      <PencilLine className="w-5 h-5 text-blue-500 cursor-pointer" />
                     </button>
                     <button onClick={() => deleteTask(item.todoid)}>
-                      <Trash2 className="w-5 h-5 text-red-500" />
+                      <Trash2 className="w-5 h-5 text-red-500 cursor-pointer" />
                     </button>
                   </div>
                 </>
