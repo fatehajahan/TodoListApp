@@ -88,7 +88,7 @@ function ToDoList() {
           />
           <button
             onClick={handleAddOrUpdate}
-            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded cursor-pointer"
+            className="hover:bg-amber-200 hover:text-black font-semibold bg-amber-600 text-white px-4 py-2 rounded cursor-pointer transition duration-300"
           >
             Add
           </button>
